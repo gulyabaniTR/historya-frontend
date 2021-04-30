@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -26,10 +25,8 @@
     "@ckeditor/ckeditor5-build-classic": "^27.1.0",
     "@ckeditor/ckeditor5-build-decoupled-document": "^27.1.0",
     "bootstrap": "^4.6.0",
-    "express": "^4.17.1",
     "jquery": "^3.6.0",
     "ngx-pagination": "^5.0.0",
-    "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
